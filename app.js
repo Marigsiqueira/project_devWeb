@@ -38,19 +38,17 @@ function selecionar (qualBotao) {
             break;
             case 'H':
             document.getElementById("botao4Selecionado").innerHTML = "Assistir";
-            window.location.href= "https://www.youtube.com/watch?v=uvq-76lFFn8" //COLOCAR LINK
+            window.location.href= "https://www.youtube.com/watch?v=uvq-76lFFn8" 
             break;
             case 'L':
             document.getElementById("botao5Selecionado").innerHTML = "Assistir";
-            window.location.href= "https://www.youtube.com/watch?v=frdiVxORvqQ" //COLOCAR LINK
+            window.location.href= "https://www.youtube.com/watch?v=frdiVxORvqQ" 
             break;
             case 'J':
             document.getElementById("botao6Selecionado").innerHTML = "Assistir";
-            window.location.href= "https://www.youtube.com/watch?v=HUChefocs0c" //COLOCAR LINK
+            window.location.href= "https://www.youtube.com/watch?v=HUChefocs0c" 
             break;
         default:
-            document.getElementById("botaoSelecionado").innerHTML = "erro";
+            document.getElementById("botao7Selecionado").innerHTML = "erro";
         }
     }
-
-module.exports = login;
